@@ -1,0 +1,11 @@
+Proje 2
+[16,21,11,8,12,22] -> Merge Sort
+
+1.Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+2.Big-O gösterimini yazınız.
+
+# CEVAPLAR:
+1.Diziyi bölerek sıralıyor ve sonrasında birleştiriyor şu şekilde: 1.aşama: diziyi 2  parçaya bölmek [16,21,11] ve [8,12,22] sonrasında bunları da bölüyor tek sayı kalana 
+kadar 2. aşama: [16],[21,11], [8],[12,22], 3. aşama: [16],[21],[11],[8],[12],[22], 4. aşama: tekrardan birleştiriyor sıralayarak [16] [11,21],[8] ,[12,22], 5. aşama:
+[11,16,21],[8,12,22] 6.aşama: [8,11,12,16,21,22]
+2. O(nlogn) gösterimi vardır 
